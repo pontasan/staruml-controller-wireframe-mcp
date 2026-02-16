@@ -1,0 +1,26 @@
+{
+  "name": "staruml-controller-wireframe-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for StarUML Controller - Wireframe",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "staruml-controller-wireframe-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "staruml-controller-mcp-core": "file:../staruml-controller-mcp-core",
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

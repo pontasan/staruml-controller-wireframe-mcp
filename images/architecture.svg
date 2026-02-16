@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340">
+  <defs>
+    <style>
+      .comp-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #1F2937; }
+      .comp-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #6B7280; }
+      .proto-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #374151; }
+      .proto-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10px; fill: #6B7280; }
+      .outer-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #7C3AED; }
+      .output-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #1E40AF; }
+      .output-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10px; fill: #6B7280; }
+      .tool-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #059669; }
+    </style>
+  </defs>
+  <rect x="15" y="55" width="180" height="140" rx="10" fill="#EEF2FF" stroke="#818CF8" stroke-width="2"/>
+  <text x="105" y="98" text-anchor="middle" class="comp-title">Claude Code</text>
+  <text x="105" y="116" text-anchor="middle" class="comp-sub">/ Claude Desktop</text>
+  <line x1="40" y1="128" x2="170" y2="128" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="105" y="148" text-anchor="middle" class="comp-sub">AI Assistant that</text>
+  <text x="105" y="163" text-anchor="middle" class="comp-sub">invokes MCP tools</text>
+  <line x1="195" y1="125" x2="283" y2="125" stroke="#9CA3AF" stroke-width="2"/>
+  <polygon points="283,120 293,125 283,130" fill="#9CA3AF"/>
+  <polygon points="205,120 195,125 205,130" fill="#9CA3AF"/>
+  <rect x="206" y="91" width="72" height="22" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="242" y="106" text-anchor="middle" class="proto-label">MCP</text>
+  <text x="242" y="148" text-anchor="middle" class="proto-sub">(stdio)</text>
+  <rect x="293" y="35" width="210" height="180" rx="10" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="2"/>
+  <text x="398" y="72" text-anchor="middle" class="comp-title">staruml-controller</text>
+  <text x="398" y="90" text-anchor="middle" class="comp-title">-wireframe-mcp</text>
+  <line x1="318" y1="100" x2="478" y2="100" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="398" y="120" text-anchor="middle" class="comp-sub">MCP Server for</text>
+  <text x="398" y="135" text-anchor="middle" class="comp-sub">Wireframe Diagram</text>
+  <rect x="317.5" y="150" width="161" height="28" rx="8" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1"/>
+  <text x="398" y="169" text-anchor="middle" class="tool-label">Wireframe + Common Tools</text>
+  <line x1="503" y1="125" x2="593" y2="125" stroke="#9CA3AF" stroke-width="2"/>
+  <polygon points="593,120 603,125 593,130" fill="#9CA3AF"/>
+  <polygon points="513,120 503,125 513,130" fill="#9CA3AF"/>
+  <rect x="508" y="81" width="78" height="34" rx="4" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="547" y="96" text-anchor="middle" class="proto-label">HTTP</text>
+  <text x="547" y="110" text-anchor="middle" class="proto-label">REST API</text>
+  <text x="547" y="148" text-anchor="middle" class="proto-sub">(JSON)</text>
+  <rect x="603" y="25" width="260" height="200" rx="12" fill="#FAF5FF" stroke="#C084FC" stroke-width="2"/>
+  <text x="733" y="50" text-anchor="middle" class="outer-label">StarUML</text>
+  <rect x="618" y="62" width="230" height="145" rx="8" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+  <text x="733" y="100" text-anchor="middle" class="comp-title">staruml-controller</text>
+  <line x1="643" y1="112" x2="823" y2="112" stroke="#FED7AA" stroke-width="1"/>
+  <text x="733" y="132" text-anchor="middle" class="comp-sub">StarUML Extension</text>
+  <text x="733" y="147" text-anchor="middle" class="comp-sub">HTTP Server on port 12345</text>
+  <text x="733" y="162" text-anchor="middle" class="comp-sub">Wireframe Diagram APIs</text>
+  <text x="733" y="177" text-anchor="middle" class="comp-sub">+ Common Diagram APIs</text>
+  <line x1="733" y1="225" x2="733" y2="268" stroke="#93C5FD" stroke-width="2"/>
+  <polygon points="728,268 733,278 738,268" fill="#93C5FD"/>
+  <rect x="665" y="278" width="136" height="52" rx="6" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+  <text x="733" y="302" text-anchor="middle" class="output-title">Wireframe Diagram</text>
+  <text x="733" y="318" text-anchor="middle" class="output-sub">.mdj / .png / .svg</text>
+</svg>
